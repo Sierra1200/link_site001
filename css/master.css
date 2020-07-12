@@ -39,9 +39,9 @@ img.scale-up-anime:hover {
 }
 
 .wrapper {
-  /* margin: 60px 15% 30px; */
-  /* max-width: 1100px; */
-  /* min-width: 600px; */
+  /* max-width: 1100px;
+  margin: 0 auto; */
+
   margin: 0 15%;
 }
 
@@ -75,6 +75,10 @@ header {
   font-size: 2rem;
   color: #666;
   margin-bottom: 20px;
+}
+
+.main-visual-wrapper {
+
 }
 
 .main-visual {
