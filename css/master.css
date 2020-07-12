@@ -1,11 +1,202 @@
 @charset "UTF-8";
 
+/* 共通部分 */
+
 html {
   font-size: 62.5%; /* 1rem = 10px */
 }
 
 body {
-  font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-  line-height: normal;
-  color: normal;
+  font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", serif;
+  line-height: 1.2;
+  color: #111;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  /* margin: 60px 15% 30px; */
+  /* max-width: 1100px; */
+  margin: 0 15%;
+}
+
+.border {
+  margin: 0 2%;
+  border-top: 1px solid #aaa;
+}
+
+/* /共通部分 */
+
+.open-visual {
+  /* height: 100vh; */
+}
+
+/* header */
+
+header {
+  padding-top: 60px;
+  /* padding-bottom: 60px; */
+}
+
+.title h1 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-family: 'Libre Baskerville', sans-serif;
+  font-weight: normal;
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
+.title p {
+  font-size: 2rem;
+  /* margin-top: 0; */
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.main-visual {
+  /* height: 100vh; */
+  /* width: 100vw; */
+  margin-top: 60px;
+}
+
+/* /header */
+
+/* main */
+
+/* main - 共通部分 */
+main {
+  margin-top: 60px;
+}
+
+main h1 {
+  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", sans-serif;
+  font-size: 3rem;
+  letter-spacing: -1px;
+}
+
+main h2 {
+  font-size: 3.3rem;
+  font-weight: bold;
+}
+
+/* main p {
+  font-size: 1.8rem;
+} */
+
+main .border {
+  margin: 0;
+  border-top: 1px solid #111;
+}
+
+/* main - /共通部分 */
+
+.profile {
+  /* background: #ceb; */
+  /* background-image: linear-gradient(#c9ffbf, #ffafbd); */
+  /* background-image: radial-gradient(#0df, #013); */
+  /* background-image: radial-gradient(#fa1, #f11); */
+  background-image: linear-gradient(#dfb, #6a3);
+  /* background-image: linear-gradient(#fa1, #f11); */
+}
+
+.profile .wrapper {
+  padding: 30px 0;
+}
+
+.profile-content {
+  margin-top: 30px;
+  display: flex;
+}
+
+.profile-image,
+.profile-detail {
+  margin-left: 40px;
+}
+
+.profile-detail h2,
+.profile-detail p,
+.profile-detail ul {
+  padding: 5px;
+}
+
+.profile-image img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 0.2rem solid #fff;
+}
+
+.profile-detail {
+
+}
+
+.profile-detail ul {
+  margin-top: 10px;
+  display: flex;
+}
+
+.profile-detail li {
+  margin-right: 15px;
+}
+
+.profile-detail img {
+  width: 40px;
+  height: 40px;
+}
+
+.links-contents {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  /* display: inline-block; */
+  /* margin: 0.5%; */
+  width: 33%;
+  height: auto;
+  border: 3px solid #6a3;
+  padding: 10px;
+  /* text-align: center; */
+  /* vertical-align: top; */
+}
+
+.link img {
+  width: 100%;
+  height: auto;
+  /* transition: 0.3s; */
+}
+
+/* /main */
+
+/* footer */
+
+footer {
+  margin-top: 60px;
+}
+
+/* /footer */
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 600px) {
+  .wrapper {
+
+  }
 }
