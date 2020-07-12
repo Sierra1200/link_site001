@@ -1,4 +1,11 @@
-/* Script of JQuery */
+/* ロード画面 */
+window.onload = function() {
+  const spinner = document.getElementById('loading');
+  spinner.classList.add('loaded');
+}
+/* /ロード画面 */
+
+/* JQuery */
 $(function(){
   $("body").hide().fadeIn(1000, function() {
     // console.log("JQueryでフェードインが実行されました。")
@@ -15,3 +22,4 @@ $(function(){
     controls: false
   });
 });
+/* /JQuery */
