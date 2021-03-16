@@ -162,7 +162,7 @@ main .border {
   /* background-image: radial-gradient(#fa1, #f11); */
   /* background-image: linear-gradient(#dfb, #6a3); */
   /* background-image: linear-gradient(#fa1, #f11); */
-  background: linear-gradient(blue, pink);
+  background: linear-gradient(90deg, rgba(63,255,101,1) 0%, rgba(0,212,255,1) 100%);
 }
 
 .profile .wrapper {
