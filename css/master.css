@@ -160,8 +160,9 @@ main .border {
   /* background-image: linear-gradient(#c9ffbf, #ffafbd); */
   /* background-image: radial-gradient(#0df, #013); */
   /* background-image: radial-gradient(#fa1, #f11); */
-  background-image: linear-gradient(#dfb, #6a3);
+  /* background-image: linear-gradient(#dfb, #6a3); */
   /* background-image: linear-gradient(#fa1, #f11); */
+  background: linear-gradient(blue, pink);
 }
 
 .profile .wrapper {
